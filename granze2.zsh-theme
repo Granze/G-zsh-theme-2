@@ -4,7 +4,6 @@ PROMPT='%{$fg_no_bold[yellow]%} » %{$fg_no_bold[green]%} %~ $(git_prompt_info)
 RPROMPT='%{$reset_color%}%T %{$fg_bold[white]%}@ %m%{$reset_color%}'
 
 # git theming
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}- on %{$fg_bold[magenta]%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} branch"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}- on %{$fg_bold[magenta]%} %{$reset_color%}branch"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%} ✔"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_bold[yellow]%} ✗"
